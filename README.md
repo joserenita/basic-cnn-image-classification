@@ -32,3 +32,11 @@ Overfitting occurs when training loss continues to decrease while validation los
 
 ### 3. What is the purpose of pooling?
 Pooling (e.g., Max Pooling) progressively reduces the spatial dimensions (width x height) of feature maps. This reduces computational workload, minimizes parameter count, and provides translation invariance (making feature detection less sensitive to exact pixel locations).
+
+## Performance & Visual Evaluation
+
+### Training & Validation Curves
+![Training and Validation Curves](training_curves.png)
+
+### Test-Set Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
